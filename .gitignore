@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+*.xcsettings
+*.xccheckout
+*.xcscmblueprint
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Xcode and Swift build products
+DerivedData*/
+build/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.hmap
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+.xcode.env.local
+
+# Apple signing credentials and profiles
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+*.cer
